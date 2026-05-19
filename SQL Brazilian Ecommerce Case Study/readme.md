@@ -15,7 +15,9 @@ The goal is to analyze customer behavior, order trends, payment patterns, freigh
 
 ## Dataset
 
-The project uses multiple e-commerce source tables:
+The original CSV files were uploaded into Databricks and created as managed Delta tables under the `ecommerce_analysis` schema.
+
+The analysis uses the following Databricks tables:
 
 - `customer` — customer location and customer ID details
 - `geolocation` — zip code, city, state, latitude, and longitude information
@@ -26,9 +28,7 @@ The project uses multiple e-commerce source tables:
 - `products` — product category and product attributes
 - `sellers` — seller location and seller ID details
 
-The source data files are included in the project under the `data_files/` folder.
-
-## Case Study Questionnaire
+The source CSV files are not stored directly in this repository because of file upload and size limitations.
 
 The case study questionnaire is included in the project under the `case study Questionnaire/` folder.
 
